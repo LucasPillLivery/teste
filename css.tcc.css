@@ -1,0 +1,12 @@
+.logo {
+    border-radius: 10%;
+    background-color: #5793e7;
+    margin: 0;
+    width: 20px;
+    height: 5px;
+    position: relative;
+}
+
+h1 {
+    color: #333;
+}

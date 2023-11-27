@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" class="rounded-circle"/>
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/solid.css" rel="stylesheet">
+    <title>PillLivery</title>
+  </head>
+    <body class="background">
+        <script src="js/bootstrap.js"></script>
+        <script src="js/ver senha.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Tela inicial.html">
+                <img src="img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top rounded-circle">
+                PillLivery
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse active" id="navbarSupportedContent">
+                <ul class="contaainer-fluid navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Login.html">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Cadastro.html">Cadastre-se já</a>
+                    </li>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-info" type="submit">🔍︎</button>
+                    </form>
+                    <div class="menu">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="#" id="navbarDropdown 1" data-bs-toggle="dropdown" aria-expanded="false"><i class="flymenu fa-solid fa-bars a"></i></a>
+  
+                        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Doações</a></li>
+                        <li><a class="dropdown-item" href="#">Sobre o nosso projeto</a></li>
+                        <li><a class="dropdown-item" href="#">Ajuda</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Fale conosco</a></li>          
+                    </ul>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="cadastro">
+                <h1>Inserir seus dados</h1><br>
+            <form action="Cadastrar.php" method="post">
+                <h3>Digite seu Nome</h3>
+                <input type="text" name="nome" class="inpu1">
+                <h3>Digite seu CPF</h3>
+                <input type="text" name="cpf"class="inpu1">
+                <h3>Digite sua Data de Nascimento</h3>
+                <input type="date" name="data" class="inpu1">
+                <h3>Digite seu Telefone</h3>
+                <input type="tel" name="telefone" class="inpu1">
+                <h3>Digite seu Endereço</h3>
+                <input type="text" name="endereco" class="inpu1">
+                <div class="input-container">
+                <h3>Digite seu Email</h3>
+                <input type="email" name="email" class="inpu1">
+                <h3>Digite sua Senha</h3>
+                    <input type="password" id="senha" placeholder="Digite sua senha">
+                    <span class="toggle-password" onclick="togglePasswordVisibility()">👁️</span>
+                  </div><br><br>
+                <input type="submit" name="salvar" value="Salvar">
+                <input type="reset" value="Limpar"><br><br>
+            </form>
+        </div>
+        
+    </body>
+</html>

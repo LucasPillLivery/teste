@@ -1,0 +1,12 @@
+.search{
+    position: absolute;
+    left: 400px;
+}
+.flymenu{
+    position: absolute;
+    left: 70%;
+}
+.menu{
+    position: relative;
+    background-color: #B4BDFF;
+}

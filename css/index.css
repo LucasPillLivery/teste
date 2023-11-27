@@ -1,0 +1,13 @@
+.letra{
+    margin: 5px;
+}
+body{
+    background-color: cadetblue;
+}
+.foto1 .foto2 .foto3{
+    position: relative;
+    width: 500px;
+    height: 650px;
+    align-items: center;
+    border-radius: 10%;
+}
